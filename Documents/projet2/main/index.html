@@ -10,33 +10,36 @@
 </head>
 <body>
     <header>
-       <nav>
+        <nav>
         <div class="logo">
-            <a href="#">
-            <img src="images/airbnb-ar21.svg" alt="airbnb logo">
-            </a>
+            <a href="#"><img src="images/airbnb-ar21.svg" alt="airbnb logo"></a>
         </div>
-        <div class="search-box">
-            <div class="search-box-item">
-              <label for="location-input" class="search-box-label">N'importe où</label>
-              
+        
+        <div class="searchbox">
+            <div class="search-element">
+              <span class="bold">N'importe où</span>
             </div>
-            <div class="search-box-item">
-              <label for="checkin-input" class="search-box-label">Une semaine</label>
-              
+            <div class="vertical-line"></div>
+            <div class="search-element">
+              <span class="bold">Une semaine</span>
             </div>
-             <div class="search-box-item">
-              <label for="Add-voyageurs" class="search-box-label">Ajouter des voyageurs</label>
+            <div class="vertical-line"></div>
+            <div class="search-element">
+              <span>Ajouter des voyageurs</span>
             </div>
-          </div>
-          <div class="host">
+            <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: none; height: 12px ;width: 12px ; stroke:#fff ; stroke-width: 5.333333333333333; overflow: visible;" aria-hidden="true" role="presentation" focusable="false"><g fill="none"><path d="m13 24c6.0751322 0 11-4.9248678 11-11 0-6.07513225-4.9248678-11-11-11-6.07513225 0-11 4.92486775-11 11 0 6.0751322 4.92486775 11 11 11zm8-3 9 9"></path></g></svg>
+        </div>        
+        <div class="host">
             <p>Mettre mon logement sur Airbnb</p>
             <img src="images/monde (1).png" alt="icone globe">
+          </div>
+        <div class="svg">
+            <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; fill: none; height: 17px; width: 17px; stroke: currentcolor; stroke-width: 3; overflow: visible;"><g fill="none" fill-rule="nonzero"><path d="m2 16h28"></path><path d="m2 24h28"></path><path d="m2 8h28"></path></g></svg>   
+            <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; height: 25px; width: 25px; fill: grey;"><path d="m16 .7c-8.437 0-15.3 6.863-15.3 15.3s6.863 15.3 15.3 15.3 15.3-6.863 15.3-15.3-6.863-15.3-15.3-15.3zm0 28c-4.021 0-7.605-1.884-9.933-4.81a12.425 12.425 0 0 1 6.451-4.4 6.507 6.507 0 0 1 -3.018-5.49c0-3.584 2.916-6.5 6.5-6.5s6.5 2.916 6.5 6.5a6.513 6.513 0 0 1 -3.019 5.491 12.42 12.42 0 0 1 6.452 4.4c-2.328 2.925-5.912 4.809-9.933 4.809z"></path></svg>
         </div>
         </nav>
         
     </header>
-        
         <ul class="icons">
             <li>
                 <figure>
@@ -47,6 +50,18 @@
                     <figure>
                         <img src="images/Avecvue.jpg" alt="Icône avec vue">
                         <figcaption>Avec vue</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/Cabanesperchees.jpg" alt="Icone cabanes perchees">
+                        <figcaption>Cabanes Perchées</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/Tendance.jpg" alt="Icone tendance">
+                        <figcaption>Tendance</figcaption>
                     </figure>
                 </li>
                 <li>
@@ -90,46 +105,89 @@
                     <figcaption>Dômes</figcaption>
                 </figure>
             </li>
+            <li>
+                <div class="fleche">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block;fill: none;height: 15px;width: 15px;stroke: currentcolor;stroke-width: 5.33333;overflow: visible;"><g fill="none"><path d="m12 4 11.2928932 11.2928932c.3905243.3905243.3905243 1.0236893 0 1.4142136l-11.2928932 11.2928932"></path></g></svg>
+                </div>
+            </li>
+            <li>
+                <div class="filter">
+                    <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style="display:block;height:14px;width:14px;fill:currentColor" role="presentation" focusable="false"><path d="M5 8c1.306 0 2.418.835 2.83 2H14v2H7.829A3.001 3.001 0 1 1 5 8zm0 2a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm6-8a3 3 0 1 1-2.829 4H2V4h6.17A3.001 3.001 0 0 1 11 2zm0 2a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"></path></svg>
+                    <span>Filtres</span>
+                </div>
+            </li>                
+            
         </ul>
+
 
         <div id="rangée1">
             <figure>
-                <img src="images/photo bord mer.webp" alt="maison bord mer">
-                <figcaption>
-                    <strong> Hossegor, France</strong><br>
-                    Particulier<br>
-                    15-22 mars<br>
-                    <strong>240€ par nuit</strong>
-                </figcaption>
+              <img src="images/photo bord mer.webp" alt="maison bord mer">
+              <figcaption>
+                <strong> Hossegor, France</strong><br>
+                Particulier<br>
+                15-22 mars<br>
+                <strong>240 €</strong> par nuit
+                <div class="rating1">
+                  <span class="star">&#9733;</span>
+                  <span class="score">4.73</span>
+                </div>
+                <div class="heart1">
+                    <div class="heart">
+                        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;"><path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05l-2.051 2.051-2.05-2.051c-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05-1.367 1.367-2.051 3.158-2.051 4.95 0 7 7 12.267 14 17z"></path></svg>
+                    </div>
+                </div>
+              </figcaption>
             </figure>
             <figure>
-                <img src="images/photo vue.webp" alt="jardin maison avec vue degagée">
-                <figcaption>
-                    <strong> Le Morne, Ile Maurice</strong><br>
-                    Particulier<br>
-                    15-22 mars<br>
-                    <strong>625€ par nuit</strong>
-                </figcaption>
+              <img src="images/photo vue.webp" alt="jardin maison avec vue degagée">
+              <figcaption>
+                <strong> Le Morne, Ile Maurice</strong><br>
+                Particulier<br>
+                15-22 mars<br>
+                <strong>625 €</strong> par nuit
+                <div class="rating1">
+                  <span class="star">&#9733;</span>
+                  <span class="score">4.92</span>
+                </div>
+                    <div class="heart">
+                        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;"><path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05l-2.051 2.051-2.05-2.051c-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05-1.367 1.367-2.051 3.158-2.051 4.95 0 7 7 12.267 14 17z"></path></svg>
+                    </div>
+              </figcaption>
             </figure>
             <figure>
-                <img src="images/photo campagne.webp" alt="photo d'un terrain vert avec batisse au fond à droite">
-                <figcaption>
-                    <strong>Angers, France</strong><br>
-                    Particulier<br>
-                    15-22 mars<br>
-                    <strong>115€ par nuit</strong>
-                </figcaption>
+              <img src="images/photo campagne.webp" alt="photo d'un terrain vert avec batisse au fond à droite">
+              <figcaption>
+                <strong>Angers, France</strong><br>
+                Particulier<br>
+                15-22 mars<br>
+                <strong>115 €</strong> par nuit
+                <div class="rating1">
+                  <span class="star">&#9733;</span>
+                  <span class="score">4.22</span>
+                </div>
+                <div class="heart">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;"><path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05l-2.051 2.051-2.05-2.051c-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05-1.367 1.367-2.051 3.158-2.051 4.95 0 7 7 12.267 14 17z"></path></svg>
+                </div>
+              </figcaption>
             </figure>
             <figure>
-                <img src="images/photo chambre dhotes.webp" alt="photo maison recouverte par feuillage fontaine en avantplan">
-                <figcaption>
-                    <strong> Neufchâtel, Suisse</strong><br>
-                    Particulier<br>
-                    15-22 mars<br>
-                    <strong>625€ par nuit</strong>
-                </figcaption>
+              <img src="images/photo chambre dhotes.webp" alt="photo maison recouverte par feuillage fontaine en avantplan">
+              <figcaption>
+                <strong> Neufchâtel, Suisse</strong><br>
+                Particulier<br>
+                15-22 mars<br>
+                <strong>625 €</strong> par nuit
+                <div class="rating1">
+                  <span class="star">&#9733;</span>
+                  <span class="score">4.65</span>
+                </div>
+                <div class="heart">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;"><path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05l-2.051 2.051-2.05-2.051c-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05-1.367 1.367-2.051 3.158-2.051 4.95 0 7 7 12.267 14 17z"></path></svg>
+                </div>
+              </figcaption>
             </figure>
-        </div>
+          </div>
 
         <div id="rangée2">
             <figure>
@@ -138,7 +196,14 @@
                     <strong> Flic en Flac, Maurice</strong><br>
                     Particulier<br>
                     15-22 mars<br>
-                    <strong>200€ par nuit</strong>
+                    <strong>200 €</strong> par nuit
+                    <div class="rating2">
+                        <span class="star">&#9733;</span>
+                        <span class="score">4.99</span>
+                    </div>
+                    <div class="heart">
+                        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;"><path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05l-2.051 2.051-2.05-2.051c-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05-1.367 1.367-2.051 3.158-2.051 4.95 0 7 7 12.267 14 17z"></path></svg>
+                    </div>    
                 </figcaption>
             </figure>
             <figure>
@@ -147,7 +212,14 @@
                     <strong> Courchevel, France</strong><br>
                     Particulier<br>
                     15-22 mars<br>
-                    <strong>310€ par nuit</strong>
+                    <strong>310 €</strong> par nuit
+                    <div class="rating2">
+                        <span class="star">&#9733;</span>
+                        <span class="score">3.84</span>
+                    </div>
+                    <div class="heart">
+                        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;"><path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05l-2.051 2.051-2.05-2.051c-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05-1.367 1.367-2.051 3.158-2.051 4.95 0 7 7 12.267 14 17z"></path></svg>
+                    </div>
                 </figcaption>
             </figure>
             
@@ -157,7 +229,14 @@
                     <strong> Pétaouchnok, Là-bas</strong><br>
                      Professionnel<br>
                     15-22 mars<br>
-                 <strong>155€ par nuit</strong>
+                    <strong>155 €</strong> par nuit
+                    <div class="rating2">
+                        <span class="star">&#9733;</span>
+                        <span class="score">4.19</span>
+                     </div>
+                     <div class="heart">
+                        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;"><path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05l-2.051 2.051-2.05-2.051c-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05-1.367 1.367-2.051 3.158-2.051 4.95 0 7 7 12.267 14 17z"></path></svg>
+                    </div>     
                 </figcaption>
             </figure>
             <figure>
@@ -166,25 +245,38 @@
                     <strong> Zone 51, USA</strong><br>
                     Aliens<br>
                     15-22 mars<br>
-                    <strong>5000€ par nuit</strong>
+                    <strong>5000 €</strong> par nuit
+                    <div class="rating2">
+                        <span class="star">&#9733;</span>
+                        <span class="score">6,66</span>
+                    </div>
+                    <div class="heart">
+                        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;"><path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05l-2.051 2.051-2.05-2.051c-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05-1.367 1.367-2.051 3.158-2.051 4.95 0 7 7 12.267 14 17z"></path></svg>
+                    </div> 
                 </figcaption>
             </figure>
          </div>
 
          <div class="footer">
             <footer>
-                <a href="#">© 2023 Airbnb, Inc. ·</a>
-                <a href="#">Confidentialité ·</a>
-                <a href="#">Conditions Générales ·</a>
-                <a href="#">Plan du site ·</a>
-                <a href="#">Fonctionnement du site ·</a>
-                <a href="#">Infos sur l'entreprise ·</a>
-                <a href="#">Destinations</a>
-                <img src="images/monde (1).png" alt="icone world">
+                <a class="copy" href="#">© 2023 Airbnb, Inc. </a>
+                <div class="liste">
+                    <ul>
+                        <li><a href="#">Confidentialité</a></li>
+                        <li><a href="#">Conditions Générales </a></li>
+                        <li><a href="#">Plan du site </a></li>
+                        <li><a href="#">Fonctionnement du site </a></li>
+                        <li><a href="#">Infos sur l'entreprise </a></li>
+                        <li><a href="#">Destinations</a></li>
+                    </ul>
+                 </div>
+                 <div>
+                <img class="small-globe" src="images/monde (1).png" alt="icone world">
                 <a href="#"><b>Français (FR)</b></a>
                 <a href="#"><b>€ EUR</b></a>
                 <a href="#"><b>Assistance et ressources</b></a>
-                <img src="images/angle-de-la-fleche-vers-le-haut.png" alt="angle fleche haut">
+                <img class="brackettop" src="images/angle-de-la-fleche-vers-le-haut.png" alt="angle fleche haut">
+                 </div>
             </footer>
          </div>
     
